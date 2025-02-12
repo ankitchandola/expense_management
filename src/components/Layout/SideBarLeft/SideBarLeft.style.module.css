@@ -1,0 +1,18 @@
+.headingTitle {
+  background: #e7f2ff;
+  color: #007aff;
+}
+.sideBarTab {
+  border-radius: 6px;
+  padding: 10px 12px;
+  gap: 8px;
+  display: flex;
+  color: #4e617c;
+}
+.activePage {
+  background: #1b2559;
+  color: #fff;
+}
+.sidebarSection {
+  border: 1px solid #eaece0;
+}

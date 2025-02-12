@@ -1,0 +1,29 @@
+.mainWrapper {
+  background-color: #00000030;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  display: none;
+  justify-content: flex-end;
+  z-index: 1000;
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.visible {
+  display: flex;
+}
+
+.formContainer {
+  background-color: #fff;
+  max-width: 50%;
+  width: 45%;
+  transition: margin-right 300ms ease;
+  margin-right: -45%;
+  padding: 24px;
+}
+
+.opened {
+  margin-right: 0;
+}

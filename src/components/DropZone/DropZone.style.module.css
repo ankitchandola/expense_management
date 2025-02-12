@@ -1,0 +1,27 @@
+.thumbsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+.thumb {
+  display: inline-flex;
+  width: 113px;
+  height: 110px;
+  box-sizing: border-box;
+}
+
+.thumb-inner {
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+  width: 113px;
+  height: 110px;
+}
+
+.img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
